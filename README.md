@@ -12,7 +12,7 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 🛠️ Setup
 
 1. Install dependencies: `pip install -r requirements.txt`
-2. Run the broken app: `python -m streamlit run app.py`
+2. Run the app: python3 -m streamlit run app.py
 
 ## 🕵️‍♂️ Your Mission
 
@@ -25,13 +25,17 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [x] Describe the game's purpose.
+- [x] Detail which bugs you found.
+- [x] Explain what fixes you applied.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [x] ![Game Screenshot](winninggame.png)
+
+## ✅ What I Did
+
+I ran the app and tested the game to find bugs. I found that the hints were incorrect and the game did not reset properly. I fixed the hint logic so it now tells the user the correct direction. I also tested the game multiple times to confirm it works.
 
 ## 🚀 Stretch Features
 
